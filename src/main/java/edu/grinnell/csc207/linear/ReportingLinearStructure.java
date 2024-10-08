@@ -30,7 +30,7 @@ public class ReportingLinearStructure<T> implements LinearStructure<T> {
 
   // +--------------+----------------------------------------------------
   // | Constructors |
-  // +--------------+
+  // +---------------
 
   /**
    * Build a new experiment that uses `ls` to do the work and prints comments 
@@ -55,7 +55,7 @@ public class ReportingLinearStructure<T> implements LinearStructure<T> {
    * comments to stdout using no prefix.
    */
   public ReportingLinearStructure(LinearStructure<T> ls) {
-    this(ls, new PrintWriter(System.out, true), "");
+    this(ls, new PrintWriter(System.err, true), "Linearstructure@" + ls.getClass());
   } // ReportingLinearStructure(LinearStructure<T>)
 
   // +-------------------------+-----------------------------------------
