@@ -4,7 +4,7 @@ Authors:
 
 * Samuel A. Rebelsky
 * Myles Bohrer-Purnell
-* Nicky Moreno
+* Sebastian Manza
 
 The latest version of the CSC-207 lab on linear structures, now with Maven.
 
